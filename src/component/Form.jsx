@@ -4,8 +4,8 @@ import { FaInstagram, FaLinkedinIn, FaFacebook, FaGithub } from "react-icons/fa"
 
 function Form() {
     return (
-        <div className='w-full flex my-10 justify-evenly'>
-            <div className='w-7/12 bg-white rounded-lg'>
+        <div className='w-full flex flex-col md:flex-row my-10 justify-evenly'>
+            <div className='w-11/12 mx-auto md:w-7/12 bg-white rounded-lg'>
                 <div className='w-11/12 mt-3 mx-auto'>
                     <Line title="Get In Touch" />
                     <input placeholder='Enter your name' className='w-full mt-5 mb-10 bg-slate-100 pl-4 py-4 rounded' />
@@ -13,10 +13,10 @@ function Form() {
                     <input placeholder='Enter your message' className='w-full mb-10 bg-slate-100 pl-4 py-3 pb-20 rounded' />
                 </div>
             </div>
-            <div className='w-3/12'>
+            <div className='w-10/12 mt-10 mx-auto md:w-3/12'>
                 <Line title="Message" />
-                <p className='text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcor mattis, pulvinar dapibus leo.</p>
-                <div className='flex w-8/12 text-3xl mt-7 justify-between'>
+                <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcor mattis, pulvinar dapibus leo.</p>
+                <div className='flex w-8/12 text-xl md:text-3xl mt-7 justify-between'>
                     <a href="https://www.instagram.com/k.kreeshu" target='_blank' rel="noreferrer">
                         <FaInstagram className='mx-4' />
                     </a>
