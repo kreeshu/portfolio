@@ -29,7 +29,7 @@ function Landing() {
                     <Button name="Learn more" />
                 </div>
             </div>
-            <div className='w-full md:w-5/12'>
+            <div className='w-full md:w-4/12    '>
                 <img src={pic} className='w-8/12 mx-auto rounded-md mt-6 md:w-full' alt="" />
                
             </div>
