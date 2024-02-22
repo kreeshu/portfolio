@@ -9,10 +9,12 @@ function Form() {
             <div className='w-11/12 mx-auto md:w-7/12 bg-white rounded-lg'>
                 <div className='w-11/12 mt-3 mx-auto'>
                     <Line title="Get In Touch" />
+                    <form action="https://getform.io/f/RdGLGQeD" method="post">
                     <input placeholder='Enter your name' className='w-full mt-5 mb-10 bg-slate-100 pl-4 py-4 rounded' />
                     <input placeholder='Enter your email' className='w-full mb-10 bg-slate-100 pl-4 py-4 rounded' />
                     <input placeholder='Enter your message' className='w-full mb-10 bg-slate-100 pl-4 py-3 pb-20 rounded' />
                     <Button name="Send"/>
+                    </form>
                 </div>
             </div>
             <div className='w-10/12 mt-10 mx-auto md:w-3/12'>
