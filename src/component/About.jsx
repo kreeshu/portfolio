@@ -1,6 +1,7 @@
 import React from 'react'
 import Line from './Line'
 import Button from './Button'
+import pic from "../assets/myself.jpg"
 
 function About() {
     return (
@@ -25,8 +26,8 @@ function About() {
                     </div>
                     <Button name="Contact Me" />
                 </div>
-                <div className=' w-full md:w-4/12'>
-                    {/* <img src={} alt="" /> */}
+                <div className='mt-5 md:mt-0 w-full md:w-4/12 flex justify-center items-center'>
+                    <img src={pic}className='rounded-lg w-10/12' alt="" />
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ function Home() {
   return (
     <div>
       <Header />
-        <div className='w-11/12 my-10 mx-auto'>
+        <div className='w-11/12 lg:my-10 mx-auto'>
       <Landing/>
       <About/>
       <Service/>

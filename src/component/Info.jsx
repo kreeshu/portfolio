@@ -2,7 +2,7 @@ import React from 'react'
 import Line from './Line'
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaGithub } from "react-icons/fa";
 import pic from "../assets/krishuu.jpg"
-import Button from './Button';
+
 function Info() {
     return (
         <div>
@@ -15,8 +15,9 @@ function Info() {
                 <div className="w-full md:w-4/12 mt-10 md:mt-0">
                     <Line title="Designing With Passion While Exploring The World" />
                     <p className='text-sm md:text-base'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                        <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+
+                        As a designer driven by passion and fueled by explorer's desire, I find inspiration in every corner of the globe. From the bustling streets of urban jungles to the serene landscapes of remote destinations, I draw upon my experiences to create engaging and impactful designs. With a commitment to innovation and a love for storytelling, I strive to craft immersive experiences that resonate with audiences on a profound level. Let's embark on this creative journey together.
+
                         <br /><br />Let's talk with me.
                     </p>
                     <p className='text-sm md:text-xl my-4 font-semibold'>Kreeshukarki1234@gmail.com</p>
@@ -24,8 +25,9 @@ function Info() {
                 <div className="w-full md:w-3/12">
                     <Line title="I Create Products Not Just Arts" />
                     <p className='text-sm md:text-base'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                        <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        
+"I am a creator driven by a passion for building meaningful products that transcend mere artistry. With a fusion of innovation and craftsmanship, I embark on a journey to craft immersive experiences that resonate deeply with users. From concept to execution, I thrive on the challenge of turning ideas into tangible solutions that enrich lives and inspire connections. Let's collaborate and bring your visions to life."
+                        <br/>
                     </p>
                     <div className='flex ml-2 cursor-pointer text-black my-6 text-2xl'>
                         <a href="https://www.instagram.com/k.kreeshu" target='_blank' rel="noreferrer">
@@ -46,8 +48,14 @@ function Info() {
             <div className='w-full mx-auto my-20 flex flex-col md:flex-row justify-evenly'>
                 <div className="w-full md:w-5/12 flex flex-col">
                     <Line title="Frontend and Backend Developer" />
-                    <p className='text-base my-5'> hello all is good.</p>
-                    <Button name="Download CV" />
+
+                    <p className='text-base my-5'> 
+"As a versatile frontend and backend developer, I thrive on the dynamic challenges of both worlds. With a passion for crafting seamless user experiences and robust, scalable systems, I bring creativity and technical expertise to every project. From pixel-perfect designs to efficient server-side solutions, I specialize in bridging the gap between form and function. Let's collaborate and bring your digital dreams to fruition."</p>
+                    <button className='bg-red-500 md:py-3 py-2 px-6 md:px-7 w-1/2 mt-2 rounded md:rounded-lg'>
+                        <a href="cv.jpg" download className=' text-sm md:text-xl text-white'>
+                            Download CV
+                        </a>
+                    </button>
                 </div>
                 <div className="w-full md:w-5/12 mt-5 flex flex-col justify-evenly">
                     <div className=' my-10 md:mb-0 h-[20px] bg-slate-200 rounded-2xl w-full flex justify-start'>

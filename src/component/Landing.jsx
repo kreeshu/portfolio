@@ -1,13 +1,13 @@
 import React from 'react'
 import Button from './Button'
-import pic from "../assets/krishuu.jpg"
+import pic from "../assets/imgg.png"
 
 import { FaInstagram,FaLinkedinIn, FaFacebook,FaGithub  } from "react-icons/fa";
 function Landing() {
     return (
-        <div className='md:w-11/12 mx-auto flex flex-col md:flex-row my-10'>
+        <div className='md:w-11/12 mx-auto flex flex-col md:flex-row md:my-10'>
             <div className='w-full md:w-7/12 flex'>
-                <div className='w-2/12 hidden md:flex text-3xl flex-col mt-9 items-center'>
+                <div className='w-2/12 hidden md:flex text-3xl flex-col md:mt-9 items-center'>
                 <a href="https://www.instagram.com/k.kreeshu" target='_blank' rel="noreferrer">
                             <FaInstagram className='my-4' />
                         </a>
@@ -21,7 +21,7 @@ function Landing() {
                             <FaGithub className='my-4' />
                         </a>
                 </div>
-                <div className='w-full text-center md:text-left md:w-10/12 flex flex-col mt-14'>
+                <div className='w-full text-center md:text-left md:w-10/12 flex flex-col mt-7 md:mt-14'>
                     <h1 className='text-3xl md:text-4xl lg:text-6xl font-noto font-semibold leading-tight '>
                         I'm Web Developer <br />
                         Krishu Karki</h1>
@@ -30,7 +30,7 @@ function Landing() {
                 </div>
             </div>
             <div className='w-full md:w-4/12    '>
-                <img src={pic} className='w-8/12 mx-auto rounded-md mt-6 md:w-full' alt="" />
+                <img src={pic} className='w-8/12 md:ml-20 mx-auto rounded-md mt-6 md:w-full' alt="" />
                
             </div>
         </div>

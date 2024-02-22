@@ -14,7 +14,7 @@ function Work() {
                 </div>
                 <div className='flex flex-col md:flex-row flex-wrap mt-10 justify-evenly'>
                     <WorkBox time="2024-2024" width="w-full mb-5 md:mb-0 md:w-5/12" text="Participating in design sprints, agile development cycles, and continuous improvement initiatives to refine designs based on user feedback and data analysis." title="Iterative Design Process" />
-                    <WorkBox time="2024-2025" width="w-full mb-5 md:mb-0 md:w-5/12" text=" Evaluating prototypes and live products to identify usability issues and gather feedback for iterative improvements." title="Usability Testing" />
+                    <WorkBox time="2024-2024" width="w-full mb-5 md:mb-0 md:w-5/12" text=" Evaluating prototypes and live products to identify usability issues and gather feedback for iterative improvements." title="Usability Testing" />
                 </div>
             </div>
         </div>

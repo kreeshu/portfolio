@@ -1,6 +1,7 @@
 import React from 'react'
 import Line from './Line'
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaGithub } from "react-icons/fa";
+import Button from './Button';
 
 function Form() {
     return (
@@ -11,11 +12,12 @@ function Form() {
                     <input placeholder='Enter your name' className='w-full mt-5 mb-10 bg-slate-100 pl-4 py-4 rounded' />
                     <input placeholder='Enter your email' className='w-full mb-10 bg-slate-100 pl-4 py-4 rounded' />
                     <input placeholder='Enter your message' className='w-full mb-10 bg-slate-100 pl-4 py-3 pb-20 rounded' />
+                    <Button name="Send"/>
                 </div>
             </div>
             <div className='w-10/12 mt-10 mx-auto md:w-3/12'>
                 <Line title="Message" />
-                <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcor mattis, pulvinar dapibus leo.</p>
+                <p className='text-sm md:text-base'>"Have a project in mind or just want to chat? I'm all ears! Feel free to reach out to me using the form below or drop me an email at [your email address]. Whether it's discussing potential collaborations, seeking advice, or simply saying hello, I'm here to connect with you. Looking forward to hearing from you!"</p>
                 <div className='flex w-8/12 text-xl md:text-3xl mt-7 justify-between'>
                     <a href="https://www.instagram.com/k.kreeshu" target='_blank' rel="noreferrer">
                         <FaInstagram className='mx-4' />
